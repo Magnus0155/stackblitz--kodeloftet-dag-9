@@ -6,6 +6,7 @@ body {
   /* property:value; is a CSS Rule */
   background-color: #fdfdfd;
   color: #0d0d0d;
+  font-family: "poppins";
 }
 
 /* HEADER */
@@ -32,11 +33,10 @@ ul {
 }
 
 /* MAIN */
-main {
-  height: 100vh;
-}
+
 
 .section {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +45,17 @@ main {
 .backgroundFeature {
   background-image: url("");
 }
+
+/*default font size 16 24 og 32 px med for exempel p, h1 etc*/
+
+/* Dette er en placeholder value, vil bli endret/slettet senere*/
+
+/* https://drive.google.com/drive/folders/14gSxohAb0LPaFe9Ds2w52erfoNIR-ON3 link for bilder fra fontenehus biler*/
+ img {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+ }
 
 /* FOOTER */
 footer {
